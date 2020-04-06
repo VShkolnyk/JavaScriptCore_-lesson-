@@ -71,4 +71,3 @@ switch (name) {
 }
 */
 
-//add text message
