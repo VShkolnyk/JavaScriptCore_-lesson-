@@ -7,16 +7,9 @@ document.getElementById('button').onclick = function () {
     for (let i in changeColor) {
         if (changeColor[i].innerHTML.includes('http') || changeColor[i].innerHTML.includes('ftp')) {
             if (changeColor[i].innerHTML.includes('internal')) {
-                return false;
+                return;
             }
             changeColor[i].className = 'external-red';
         }
     }
 }
-
-
-
-
-
-
-
