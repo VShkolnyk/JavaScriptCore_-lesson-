@@ -30,20 +30,9 @@ function sendDataByPostMethod() {
 }
 
 
-userAgePost.onblur = function () {
-    if (isNaN(this.value)){
-        this.classList.add('error');
-        this.value = 'Enter a number';
-        userAgePost.focus()
-    }else  if (this.value > 100 || this.value < 1){
-        this.classList.add('error');
-        this.value = 'Enter age from 1 to 100'
-        userAgePost.focus();
-    }else {
-        this.style.backgroundColor = 'white';
-    }
-}
-userAgeGet.onblur = function () {
+userAgePost.onblur = validNumber;
+userAgeGet.onblur = validNumber;
+function validNumber() {
     if (isNaN(this.value)){
         this.classList.add('error');
         this.value = 'Enter a number';
