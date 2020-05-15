@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script
+            src="https://code.jquery.com/jquery-1.12.4.js"
+            integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="
+            crossorigin="anonymous"></script>
+
+    <style>
+        .error {background-color: #b14040;}
+    </style>
+</head>
+
+<body>
+<h1>Ajax get method</h1>
+<form>
+    <label>First Name:</label><br>
+    <input type="text" id="userFirstNameGet"><br>
+
+    <label>Last Name:</label><br>
+    <input type="text" id="userLastNameGet"><br>
+
+    <label>Age:</label><br>
+    <input type="text" id="userAgeGet"><br>
+
+    <label>City:</label><br>
+    <input type="text" id="userCityGet"><br><br>
+
+    <input type="button" value="send by Get method" id="sendDataByGetMethod">
+</form>
+
+<br>
+
+<h1>Ajax post method</h1>
+
+<form>
+    <label>First Name:</label><br>
+    <input type="text" id="userFirstNamePost"><br>
+
+    <label>Last Name:</label><br>
+    <input type="text" id="userLastNamePost"><br>
+
+    <label>Age:</label><br>
+    <input type="text" id="userAgePost"><br>
+
+    <label>City:</label><br>
+    <input type="text" id="userCityPost"><br><br>
+
+    <input type="button" value="send by Post method" id="sendDataByPostMethod">
+</form>
+
+<div id="serverData"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
