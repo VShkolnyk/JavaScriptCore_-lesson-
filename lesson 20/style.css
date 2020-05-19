@@ -1,0 +1,25 @@
+input {
+    width: 100px;
+    height: 20px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+#age {
+    margin-left: 27px;
+}
+
+button {
+    width: 130px;
+    height: 22px;
+    border-radius: 5px;
+    background-color: darkcyan;
+    margin-top: 15px;
+    color: aliceblue;
+}
+
+label {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+}
