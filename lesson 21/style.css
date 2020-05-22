@@ -1,0 +1,23 @@
+#accordion {
+    width: 400px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+#accordion h3 {
+    text-align: center;
+}
+
+#droppable {
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    top: 50px;
+    left: 300px;
+    text-align: center;
+    position: absolute;
+}
+
+#droppable.hover {
+    background-color: #628d28;
+}
